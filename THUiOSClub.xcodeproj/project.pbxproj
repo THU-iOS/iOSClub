@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		48AF33702710084700D6AAA4 /* THUiOSClubApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48AF336F2710084700D6AAA4 /* THUiOSClubApp.swift */; };
+		48AF33702710084700D6AAA4 /* App.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48AF336F2710084700D6AAA4 /* App.swift */; };
 		48AF33722710084700D6AAA4 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48AF33712710084700D6AAA4 /* ContentView.swift */; };
 		48AF33742710084900D6AAA4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 48AF33732710084900D6AAA4 /* Assets.xcassets */; };
 		48AF33772710084900D6AAA4 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 48AF33762710084900D6AAA4 /* Preview Assets.xcassets */; };
@@ -34,7 +34,7 @@
 
 /* Begin PBXFileReference section */
 		48AF336C2710084700D6AAA4 /* THUiOSClub.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = THUiOSClub.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		48AF336F2710084700D6AAA4 /* THUiOSClubApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = THUiOSClubApp.swift; sourceTree = "<group>"; };
+		48AF336F2710084700D6AAA4 /* App.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = App.swift; sourceTree = "<group>"; };
 		48AF33712710084700D6AAA4 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		48AF33732710084900D6AAA4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		48AF33762710084900D6AAA4 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
@@ -95,7 +95,7 @@
 		48AF336E2710084700D6AAA4 /* THUiOSClub */ = {
 			isa = PBXGroup;
 			children = (
-				48AF336F2710084700D6AAA4 /* THUiOSClubApp.swift */,
+				48AF336F2710084700D6AAA4 /* App.swift */,
 				48AF33712710084700D6AAA4 /* ContentView.swift */,
 				48AF33732710084900D6AAA4 /* Assets.xcassets */,
 				48AF33782710084900D6AAA4 /* Info.plist */,
@@ -260,7 +260,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				48AF33722710084700D6AAA4 /* ContentView.swift in Sources */,
-				48AF33702710084700D6AAA4 /* THUiOSClubApp.swift in Sources */,
+				48AF33702710084700D6AAA4 /* App.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -540,6 +540,132 @@
 			};
 			name = Release;
 		};
+		48AF339A2710098E00D6AAA4 /* Dev */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				"OTHER_SWIFT_FLAGS[arch=*]" = "-DDEV";
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Dev;
+		};
+		48AF339B2710098E00D6AAA4 /* Dev */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"THUiOSClub/Preview Content\"";
+				DEVELOPMENT_TEAM = C4W6UUH267;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = THUiOSClub/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.thuiosclub.THUiOSClub;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Dev;
+		};
+		48AF339C2710098E00D6AAA4 /* Dev */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = C4W6UUH267;
+				INFOPLIST_FILE = THUiOSClubTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.thuiosclub.THUiOSClubTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/THUiOSClub.app/THUiOSClub";
+			};
+			name = Dev;
+		};
+		48AF339D2710098E00D6AAA4 /* Dev */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = C4W6UUH267;
+				INFOPLIST_FILE = THUiOSClubUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.thuiosclub.THUiOSClubUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = THUiOSClub;
+			};
+			name = Dev;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -547,6 +673,7 @@
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				48AF338F2710084A00D6AAA4 /* Debug */,
+				48AF339A2710098E00D6AAA4 /* Dev */,
 				48AF33902710084A00D6AAA4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
@@ -556,6 +683,7 @@
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				48AF33922710084A00D6AAA4 /* Debug */,
+				48AF339B2710098E00D6AAA4 /* Dev */,
 				48AF33932710084A00D6AAA4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
@@ -565,6 +693,7 @@
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				48AF33952710084A00D6AAA4 /* Debug */,
+				48AF339C2710098E00D6AAA4 /* Dev */,
 				48AF33962710084A00D6AAA4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
@@ -574,6 +703,7 @@
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				48AF33982710084A00D6AAA4 /* Debug */,
+				48AF339D2710098E00D6AAA4 /* Dev */,
 				48AF33992710084A00D6AAA4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
