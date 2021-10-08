@@ -33,7 +33,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		48AF336C2710084700D6AAA4 /* THUiOSClub.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = THUiOSClub.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		48AF336C2710084700D6AAA4 /* THU iOS Club.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "THU iOS Club.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		48AF336F2710084700D6AAA4 /* App.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = App.swift; sourceTree = "<group>"; };
 		48AF33712710084700D6AAA4 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		48AF33732710084900D6AAA4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -85,7 +85,7 @@
 		48AF336D2710084700D6AAA4 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				48AF336C2710084700D6AAA4 /* THUiOSClub.app */,
+				48AF336C2710084700D6AAA4 /* THU iOS Club.app */,
 				48AF337D2710084900D6AAA4 /* THUiOSClubTests.xctest */,
 				48AF33882710084A00D6AAA4 /* THUiOSClubUITests.xctest */,
 			);
@@ -147,7 +147,7 @@
 			);
 			name = THUiOSClub;
 			productName = THUiOSClub;
-			productReference = 48AF336C2710084700D6AAA4 /* THUiOSClub.app */;
+			productReference = 48AF336C2710084700D6AAA4 /* THU iOS Club.app */;
 			productType = "com.apple.product-type.application";
 		};
 		48AF337C2710084900D6AAA4 /* THUiOSClubTests */ = {
@@ -428,7 +428,8 @@
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.thuiosclub.THUiOSClub;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_MODULE_NAME = THUiOSClub;
+				PRODUCT_NAME = "THU iOS Club";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -450,7 +451,8 @@
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.thuiosclub.THUiOSClub;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_MODULE_NAME = THUiOSClub;
+				PRODUCT_NAME = "THU iOS Club";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -474,7 +476,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/THUiOSClub.app/THUiOSClub";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/THU iOS Club.app/THU iOS Club";
 			};
 			name = Debug;
 		};
@@ -496,7 +498,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/THUiOSClub.app/THUiOSClub";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/THU iOS Club.app/THU iOS Club";
 			};
 			name = Release;
 		};
@@ -617,8 +619,9 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.thuiosclub.THUiOSClub;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_BUNDLE_IDENTIFIER = com.thuiosclub.THUiOSClub.dev;
+				PRODUCT_MODULE_NAME = THUiOSClubDev;
+				PRODUCT_NAME = "dev iOS Club";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -642,7 +645,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/THUiOSClub.app/THUiOSClub";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/THU iOS Club.app/THU iOS Club";
 			};
 			name = Dev;
 		};
